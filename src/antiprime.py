@@ -22,7 +22,7 @@ def main(x) :
 			if j % l == 0:
 				c2 = c2 + 1
 			l = l + 1
-	j = j - 1
+		j = j - 1
 
 	if c1 <= c2:
 		res = 'not anti-prime'
